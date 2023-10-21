@@ -1,0 +1,71 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Newslit News Search PHP Reactjs App",
+    "dateExported": "2023-10-21T09:28:13.754Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "cf54feca-b48a-44cc-bb47-5d51a443d05d",
+            "colId": "a42006b7-ca9d-4570-b040-3a16fe8b243b",
+            "containerId": "",
+            "name": "Register User",
+            "url": "http://localhost:3000/api/user/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-10-20T13:18:11.424Z",
+            "modified": "2023-10-20T13:18:11.424Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "600d9ba4-094c-45eb-84af-dbfe32cdd8b0",
+            "colId": "a42006b7-ca9d-4570-b040-3a16fe8b243b",
+            "containerId": "",
+            "name": "Get Users",
+            "url": "http://localhost:3000/web/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-10-20T13:18:11.425Z",
+            "modified": "2023-10-20T13:18:11.425Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "82ba6f29-e71e-4a9d-8273-2a0434e670e3",
+            "colId": "a42006b7-ca9d-4570-b040-3a16fe8b243b",
+            "containerId": "",
+            "name": "Search Newslit",
+            "url": "http://localhost:3000/web/v1/news/search",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-10-20T13:18:57.252Z",
+            "modified": "2023-10-20T13:20:44.666Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"query\": \"news\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
