@@ -32,7 +32,7 @@
 
 [Thunder client](https://www.thunderclient.com/) Visual Studio Code extension.
 
-[thunder-collection_PHP Reactjs Boilerplate.json](https://github.com/kkamara/php-reactjs-boilerplate/blob/main/database/thunder-collection_PHP%20Reactjs%20Boilerplate.json)
+[thunder-collection_Newslit News Search PHP Reactjs App.json](https://github.com/kkamara/newslit-news-search-php-reactjs-app/blob/main/database/thunder-collection_Newslit%20News%20Search%20PHP%20Reactjs%20App.json)
 
 ## Installation
 * [https://laravel.com/docs/10.x/installation](https://laravel.com/docs/10.x/installation)
