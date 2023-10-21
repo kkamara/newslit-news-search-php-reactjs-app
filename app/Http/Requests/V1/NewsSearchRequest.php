@@ -11,7 +11,7 @@ class NewsSearchRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,11 @@ class NewsSearchRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            "query" => [
+                "required",
+                "min:1",
+                "max:255"
+            ]
         ];
     }
 }

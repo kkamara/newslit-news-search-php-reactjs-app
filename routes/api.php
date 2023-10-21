@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\Web\V1\NewsSearchController;
+use App\Http\Controllers\Web\UserController as WebUserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,22 @@ use App\Http\Controllers\Api\UserController;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
+Route::prefix('web')
+    ->group(function() {
+        // Add single page app api routes
+        Route::prefix('/user')->group(function () {
+            Route::post('/register', [WebUserController::class,'register']);
+            Route::post('/', [WebUserController::class,'login']);
+            Route::delete('/logout', [WebUserController::class,'logout']);
+            Route::get('/authorize', [WebUserController::class,'authorizeUser']);
+        });
+        Route::prefix('/v1')->group(function () {
+            Route::post("/news/search", 
+                [NewsSearchController::class, "search"]
+            )->name("search");
+        });
+        Route::get('/users', [WebUserController::class,'getUsers']);        
+    });
 
 Route::prefix('/user')->group(function () {
     Route::post('/register', [UserController::class,'register']);
