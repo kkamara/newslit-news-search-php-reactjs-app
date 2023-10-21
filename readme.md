@@ -41,7 +41,7 @@
 ```bash
 php artisan tinker
 >
-> $r = (new App\\Models\\V1\\NewsSearch())->search("news")
+> $r = (new App\Models\V1\NewsSearch())->search("news")
 ```
 
 ## Installation
