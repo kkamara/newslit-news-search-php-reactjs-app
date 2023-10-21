@@ -1,8 +1,8 @@
 {
-    "name": "kkamara/php-reactjs-boilerplate",
+    "name": "kkamara/newslit-news-search-php-reactjs-app",
     "version": "0.0.1",
     "type": "project",
-    "description": "(2021) A GDPR compliant Laravel 10.x boilerplate with redux.",
+    "description": "(21-Oct-2023) Search The News In A Reactjs App. A GDPR compliant Laravel 10.x app with redux.",
     "keywords": [
         "web",
         "web-app",

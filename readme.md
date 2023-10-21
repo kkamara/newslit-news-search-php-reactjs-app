@@ -2,9 +2,9 @@
 
 ![php-reactjs-boilerplate2.png](https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate2.png?raw=true)
 
-# PHP Reactjs Boilerplate [![API](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml)
+# Newslit News Search PHP Reactjs App [![API](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml)
 
-(2021) A GDPR compliant Laravel 10.x boilerplate with redux.
+(21-Oct-2023) Search The News In A Reactjs App. A GDPR compliant Laravel 10.x app with redux.
 
 * [Using Thunder Client?](#using-thunder-client)
 
