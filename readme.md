@@ -8,6 +8,8 @@
 
 * [Using Thunder Client?](#using-thunder-client)
 
+* [Tinker](#tinker)
+
 * [Installation](#installation)
 
 * [Usage](#usage)
@@ -33,6 +35,14 @@
 [Thunder client](https://www.thunderclient.com/) Visual Studio Code extension.
 
 [thunder-collection_Newslit News Search PHP Reactjs App.json](https://github.com/kkamara/newslit-news-search-php-reactjs-app/blob/main/database/thunder-collection_Newslit%20News%20Search%20PHP%20Reactjs%20App.json)
+
+## Tinker
+
+```bash
+php artisan tinker
+>
+> $r = (new App\\Models\\V1\\NewsSearch())->search("news")
+```
 
 ## Installation
 * [https://laravel.com/docs/10.x/installation](https://laravel.com/docs/10.x/installation)
