@@ -69,7 +69,7 @@ export default function NewsSearchComponent() {
   if (state.auth.loading || state.news.loading) {
     return <p>Loading...</p>
   }
-  console.log('error',state.news.error.message)
+  
   return (
     <>
       <div className='container news-search-container'>
