@@ -2,6 +2,7 @@ import React from 'react'
 import { Routes, Route, } from 'react-router-dom'
 
 import Header from './components/layouts/Header'
+import Footer from './components/layouts/Footer'
 
 import Home from "./components/pages/HomeComponent"
 import Login from "./components/pages/auth/LoginComponent"
@@ -24,6 +25,7 @@ export default () => {
         
         <Route path={url("/news/search")} element={<NewsSearch />}/>
       </Routes>
+      <Footer />
     </>
   )
 }
