@@ -2,6 +2,7 @@ import React, { useEffect, useState, } from 'react'
 import { useNavigate, } from 'react-router-dom'
 import { useDispatch, useSelector, } from 'react-redux'
 import { searchNews, } from '../../redux/actions/newsActions'
+import { authorize } from '../../redux/actions/authActions'
 
 import "./NewsSearchComponent.scss"
 
@@ -14,6 +15,10 @@ export default function NewsSearchComponent() {
     auth: state.auth,
     news: state.news,
   }))
+
+  useEffect(() => {
+    dispatch(authorize())
+  }, [])
 
   useEffect(() => {
     if (state.auth.error) {
