@@ -12,7 +12,7 @@ class NewsSearchController extends Controller
     public function __construct(
         protected NewsSearch $news = new NewsSearch()
     ) { 
-        $this->middleware("auth:sanctum");
+        // $this->middleware("auth:sanctum");
     }
 
     public function search(NewsSearchRequest $request)
