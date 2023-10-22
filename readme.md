@@ -1,6 +1,4 @@
-![php-reactjs-boilerplate.png](https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate.png?raw=true)
-
-![php-reactjs-boilerplate2.png](https://github.com/kkamara/useful/blob/main/php-reactjs-boilerplate2.png?raw=true)
+<img src="https://github.com/kkamara/useful/raw/main/news_search_app.png" alt="news_search_app.png" width=""/>
 
 # Newslit News Search PHP Reactjs App [![API](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml)
 
