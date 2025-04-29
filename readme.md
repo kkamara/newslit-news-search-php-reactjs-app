@@ -2,7 +2,7 @@
 
 # Newslit News Search PHP Reactjs App [![API](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/php-reactjs-boilerplate/actions/workflows/build.yml)
 
-(21-Oct-2023) Search The News In A Reactjs App. A GDPR compliant Laravel 10.x app with redux.
+(21-Oct-2023) Search the news in a ReactJS app with Redux. A GDPR compliant Laravel 10.x app.
 
 * [Using Thunder Client?](#using-thunder-client)
 
