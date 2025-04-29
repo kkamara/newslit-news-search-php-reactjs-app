@@ -2,7 +2,7 @@
     "name": "kkamara/newslit-news-search-php-reactjs-app",
     "version": "0.0.1",
     "type": "project",
-    "description": "(21-Oct-2023) Search The News In A Reactjs App. A GDPR compliant Laravel 10.x app with redux.",
+    "description": "(21-Oct-2023) Search the news in a ReactJS app with Redux. A GDPR compliant Laravel 10.x app.",
     "keywords": [
         "web",
         "web-app",
